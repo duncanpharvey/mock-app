@@ -3,44 +3,44 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
+}
+
+body {
     background-color: white;
     font-size: 20px;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin-top: 30px;
     margin-bottom: 60px;
     text-align: center;
     font-size: 175%;
-  }
-  
-  .row {
-    width: 100%;
-  }
+}
 
-  .col {
+.row {
+    width: 100%;
+}
+
+.col {
     float: left;
     height: 100%;
     padding: 10px;
-  }
-  
-  .card {
+}
+
+.card {
     background-color: gray;
     border: 3px solid black;
     height: auto;
     width: 100%;
     position: relative;
     padding: 10px;
-  }
-  
-  .card-header {
-      height: 50px;
-  }
+}
 
-  .menu-item {
+.card-header {
+    height: 50px;
+}
+
+.menu-item {
     padding: 10px;
     border: 3px solid black;
     width: 200px;
@@ -49,37 +49,37 @@
     right: -3px;
     text-align: center;
     font-size: 125%;
-  }
-  
-  #episode-iv {
-    background-color: pink;
-  }
-  
-  #episode-v {
-    background-color: lightgreen;
-  }
-  
-  #episode-vi {
-    background-color: lightblue;
-  }
+}
 
-  @media (min-width: 992px) {
+#episode-iv {
+    background-color: pink;
+}
+
+#episode-v {
+    background-color: lightgreen;
+}
+
+#episode-vi {
+    background-color: lightblue;
+}
+
+@media (min-width: 992px) {
     .lg {
-      width: 33%;
+        width: 33%;
     }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
     .md-6 {
-      width: 50%;
+        width: 50%;
     }
     .md-12 {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
-  @media (max-width: 767px) {
+}
+
+@media (max-width: 767px) {
     .sm {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
